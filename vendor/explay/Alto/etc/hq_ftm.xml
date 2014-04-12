@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012  SW3 BD2 Huaqin.com
+This xml is for Huaqin Facotry Test Mode Only
+-->
+<rootmenu title="Factory Mode">
+	<config>
+		<left_key>menu</left_key>
+		<right_key>back</right_key>
+		<confirm_key>home</confirm_key>
+		<retry_key>power</retry_key>
+		<gps_passed_num>3</gps_passed_num>
+		<gps_passed_snr>30</gps_passed_snr>
+		<pack_keys>power,vlup,vldown,home,back,menu</pack_keys>
+		<pcba_keys>power,vlup,vldown,home,back,menu</pcba_keys>
+		<ctp_strict_mode>no</ctp_strict_mode>
+		<keys_with_vibrator>10</keys_with_vibrator>
+		</config>
+	<menu test_mode="AT"  test_stage="PACK" title="Full Test">
+		<item tag="TP" title="Touch Panel"/>
+		<item tag="LCD" title="LCD"/>
+		<item tag="BL" title="LCD Backlight"/>
+		<item tag="KEYLED" 	title="LED"/>
+		<item tag="RECEIVER" title="Receiver"/>
+		<item tag="SPK" title="Speaker"/>
+		<item tag="KEYS" title="Keypad"/>
+		<item tag="MAINMIC" title="Main MIC"/>
+		<item tag="HEADSET" title="Headset"/>
+		<item tag="FM" title="Radio"/>
+		<item tag="SIM" 	title="SIM Detect"/>
+		<item tag="MEMCARD" 	title="T-Flash Card"/>
+                <item tag="GSENSOR" title="G-sensor"/>
+                <item tag="WIFI" title="WIFI"/>
+                <item tag="BT" title="Bluetooth"/>
+                <item tag="GPS" title="GPS"/>
+                <item tag="CHARGER" title="Battery&amp;Charger"/>
+                <item tag="VERSION" 	title="Version"/>
+                <item tag="MAINCAM" 	title="Main Camera"/>
+		<item tag="SUBCAM" 	    title="Sub Camera"/>
+		<item tag="RTC" 	title="RTC"/>
+	</menu>
+	<menu test_mode="AT" test_stage="PCBA"  title="PCBA Test">
+		<item tag="TP" title="Touch Panel"/>
+		<item tag="KEYLED" 	title="LED"/>
+		<item tag="RECEIVER" title="Receiver"/>
+		<item tag="SPK" title="Speaker"/>
+		<item tag="KEYS" title="Keypad"/>
+		<item tag="MAINMIC" title="Main MIC"/>
+		<item tag="HEADSET" title="Headset"/>
+		<item tag="FM" title="Radio"/>
+		<item tag="SIM" 	title="SIM Detect"/>
+		<item tag="MEMCARD" 	title="T-Flash Card"/>
+		<item tag="GSENSOR" title="G-sensor"/>
+		<item tag="WIFI" title="WIFI"/>
+		<item tag="BT" title="Bluetooth"/>
+		<item tag="GPS" title="GPS"/>
+		<item tag="CHARGER" title="Battery&amp;Charger"/>
+		<item tag="VERSION" 	title="Version"/>
+		<item tag="MAINCAM" 	title="Main Camera"/>
+		<item tag="SUBCAM" 	    title="Sub Camera"/>
+	</menu>
+	
+	<menu test_mode="MT" title="Item Test">
+		<item tag="TP" title="Touch Panel"/>
+		<item tag="LCD" title="LCD"/>
+		<item tag="BL" title="LCD Backlight"/>
+		<item tag="KEYLED" 	title="LED"/>
+		<item tag="RECEIVER" title="Receiver"/>
+		<item tag="SPK" title="Speaker"/>
+		<item tag="KEYS" title="Keypad"/>
+		<item tag="MAINMIC" title="Main MIC"/>
+		<item tag="HEADSET" title="Headset"/>
+		<item tag="FM" title="Radio"/>
+		<item tag="SIM" 	title="SIM Detect"/>
+		<item tag="MEMCARD" 	title="T-Flash Card"/>
+                <item tag="GSENSOR" title="G-sensor"/>
+                <item tag="WIFI" title="WIFI"/>
+                <item tag="BT" title="Bluetooth"/>
+                <item tag="GPS" title="GPS"/>
+                <item tag="CHARGER" title="Battery&amp;Charger"/>
+                <item tag="VERSION" 	title="Version"/>
+                <item tag="MAINCAM" 	title="Main Camera"/>
+		<item tag="SUBCAM" 	    title="Sub Camera"/>
+		<item tag="RTC" 	title="RTC"/>	
+	</menu>
+</rootmenu>
