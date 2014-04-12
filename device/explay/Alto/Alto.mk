@@ -10,11 +10,6 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 PRODUCT_CHARACTERISTICS := phone
 
 PRODUCT_COPY_FILES += \
-	vendor/explay/Alto/bin:/system/bin \
-	vendor/explay/Alto/etc:/system/etc \
-	vendor/explay/Alto/lib:/system/lib \
-	vendor/explay/Alto/usr:/system/usr \
-	vendor/explay/Alto/:/system/ \
 	vendor/explay/Alto/bin/6620_launcher:/system/bin/6620_launcher \
 	vendor/explay/Alto/bin/6620_wmt_concurrency:/system/bin/6620_wmt_concurrency \
 	vendor/explay/Alto/bin/6620_wmt_lpbk:/system/bin/6620_wmt_lpbk \
